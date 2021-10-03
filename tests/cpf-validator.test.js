@@ -1,7 +1,5 @@
 import cpfValidator from '../src/cpf-validator';
 
-// TODO: Melhorar nomes dos testes
-
 describe('validate cpf', () => {
   it('should return TRUE for 935.411.347-80', () => {
     expect(cpfValidator.validate('935.411.347-80')).toBe(true);
